@@ -5,3 +5,127 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/*shared styes */
+.display-flex{
+    display: flex;
+}
+.dark-1{
+color: #131313;
+}
+.dark-2{
+color: #424242;
+}
+
+.dark-3{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+    color: white;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+   
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+/* Header styles */
+
+
+/* navbar related styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+     margin-bottom: 50px;
+
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4em;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* team and features related styles */
+
+.teams{
+    align-items: center;
+}
+
+.team-image-container{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.our-features{
+    margin-left: 73px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#quick-list{
+    font-weight: 500;
+}
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
